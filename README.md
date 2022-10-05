@@ -1,5 +1,5 @@
 
-# Social-media-buttons
+# Social-media-buttons.github.io
 ## 🎙 Introduction
 This project repository is mainly created to prived an exposure to open-source contribution.
 
