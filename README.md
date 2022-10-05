@@ -41,5 +41,4 @@ If you have any suggestions, we appreciate you raising an issue [here](https://g
 #### Happy coding!
 
 
-# Social-media-buttons.github.io
 
