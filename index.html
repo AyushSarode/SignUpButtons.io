@@ -60,8 +60,8 @@
   .btn {
     text-decoration: none;
     display: inline-block;
-    width: 90px;
-    height: 90px;
+    width: 150px;
+    height: 150px;
     background: #f1f1f1;
     margin: 10px;
     border-radius: 30%;
@@ -78,7 +78,7 @@
   }
 
   .btn i {
-    line-height: 90px;
+    line-height: 150px;
     font-size: 26px;
     transition: 0.2s linear;
   }
@@ -100,29 +100,35 @@
   }
 
   .btn:hover::before {
-    animation: aaa 0.7s 1;
+    animation: aaa 0.5s 1;
     top: -10%;
     left: -10%;
   }
-  
+  .btn:hover::after{
+    width:100%;
+    left: -110%;
+    top: 90%;
+  }
+
   h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 6rem;
     margin-bottom: 50px;
 }
 
   @keyframes aaa {
     0% {
       left: -110%;
-      top: 90%;
+      top: 50%;
     }
     50% {
       left: 10%;
       top: -30%;
     }
     100% {
-      left: -10%;
-      top: -10%;
+      left: -7%;
+      top: -15%;
+
     }
   }
 </style>
